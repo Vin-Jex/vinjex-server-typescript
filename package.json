@@ -2,11 +2,10 @@
   "name": "vinjex-server",
   "version": "1.0.0",
   "description": "vinjex server",
-  "main": "src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "build": "tsc "
+    "build": "tsc -p"
   },
   "author": "vinjex",
   "license": "ISC",
